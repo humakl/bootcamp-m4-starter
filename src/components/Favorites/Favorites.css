@@ -17,6 +17,15 @@
     margin-bottom: 24px;
 }
 
+.favorites__save:disabled{
+    border: none;
+    background-color: #8e8e8f;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
 .favorites__save {
     border: none;
     background-color: #496DDB;
@@ -31,3 +40,26 @@
     opacity: 0.9;
     transition: all 0.2s linear;
 }
+
+.favorites__save-none{
+    display:none;
+}
+
+.favorites__save:hover{
+    cursor:pointer;
+    opacity: 0.9;
+    transition: all 0.3s linear;
+}
+
+.favorites-link{
+    display: none;
+}
+
+.favorites li{
+    margin-top: 5px;
+}
+
+.but{
+    border-radius: 5px;
+}
+
